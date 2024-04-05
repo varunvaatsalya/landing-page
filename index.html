@@ -14,10 +14,15 @@
       .radientBg {
         background-image: radial-gradient(rgb(70, 70, 70), black, black);
       }
+      .bg {
+        background-image: url("./images/bg.avif");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
     </style>
     <title>Study with Personal Care</title>
   </head>
-  <body class="bg-black m-0 p-0 font-['Roboto'] text-white">
+  <body class="bg-black m-0 p-0 font-['Roboto'] text-white overflow-x-hidden">
     <header class="h-16 flex justify-between items-center px-12">
       <div class="text-white">Following</div>
       <div
@@ -30,7 +35,7 @@
       <div class="h-[70vh] sm:h-[70vh] md:h-[65vh] lg:h-[80vh] xl:h-[80vh] w-full overflow-hidden">
       
     
-      <main class="my-40 sm:my-36 md:my-44 lg:my-48 xl:my-52 w-screen absolute top-auto left-auto">
+      <main class="my-40 sm:my-36 md:my-44 lg:my-48 xl:my-52 w-full absolute top-auto left-auto">
         <div
         class="mx-auto my-3 font-bold w-3/4 text-center text-gray-100 text-5xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl"
         >
@@ -48,8 +53,8 @@
           </div>
         </div>
       </main>
-      <video autoplay muted loop id="myVideo" class="max-w-fit">
-        <source src="./Dark_Background_Web(1080p).mp4" type="video/mp4">
+      <video autoplay muted loop id="myVideo" class="">
+        <source src="./video/Dark_Background_Web(1080p).mp4" type="video/mp4">
       </video>
     </div>
     <hr class="boredr border-gray-600" />
@@ -59,7 +64,7 @@
       <div
         class="flex justify-center items-center w-full md:w-2/5 lg:w-2/5 xl:w-2/5"
       >
-        <img class="w-3/4" src="./img1.png" alt="err" />
+        <img class="w-3/4" src="./images/img1.png" alt="err" />
       </div>
       <div class="w-full md:w-3/5 lg:w-3/5 xl:w-3/5 pl-16 my-auto">
         <div class="my-8 font-semibold text-start text-gray-100 text-5xl">
@@ -78,7 +83,7 @@
       <div
         class="flex justify-center items-center w-full md:w-2/5 lg:w-2/5 xl:w-2/5"
       >
-        <img class="w-3/4" src="./img2.png" alt="err" />
+        <img class="w-3/4" src="./images/img2.png" alt="err" />
       </div>
       <div class="w-full md:w-3/5 lg:w-3/5 xl:w-3/5 pl-16 my-auto">
         <div class="my-8 font-semibold text-start text-gray-100 text-5xl">
@@ -99,7 +104,7 @@
       <div
         class="flex justify-center items-center w-full md:w-2/5 lg:w-2/5 xl:w-2/5"
       >
-        <img class="w-3/4" src="./img3.webp" alt="err" />
+        <img class="w-3/4" src="./images/img3.webp" alt="err" />
       </div>
       <div class="w-full md:w-3/5 lg:w-3/5 xl:w-3/5 pl-16 my-auto">
         <div class="my-8 font-semibold text-start text-gray-100 text-5xl">
